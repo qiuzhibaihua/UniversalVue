@@ -5,13 +5,15 @@
 module.exports = {
     lintOnSave: false,
     devServer: {
-        
+        // 代理
         proxy: {
             '/api': {
+                // 代理路径
                 target: process.env.VUE_APP_BASE_API,
-                // target: 'http://120.219.10.154/',
+                // target: 'http://120.132.31.159:80/gateway-api/',
                 ws: false,
                 changeOrigin: true,
+                // 别称
                 pathRewrite: {
                     '^/api': '',
                 },

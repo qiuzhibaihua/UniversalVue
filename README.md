@@ -27,15 +27,16 @@ npm run serve
 ```
 
 ### 官方地址
-
-[vue-element-admin](https://panjiachen.github.io/vue-element-admin-site/zh/guide).
+postcss:css代码自动补全
+browserslist:浏览器兼容
+<!-- [vue-element-admin](https://panjiachen.github.io/vue-element-admin-site/zh/guide). -->
 
 
 ## 项目截图
 
-![avatar](./public/screen1.png)
+<!-- ![avatar](./public/screen1.png) -->
 
-![avatar](./public/screen.png)
+<!-- ![avatar](./public/screen.png) -->
 
 
 ## License
